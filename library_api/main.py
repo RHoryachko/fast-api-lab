@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from typing import List
-from .models import Book, BookCreate
+from library_api.models import Book, BookCreate
 
 app = FastAPI(
     title="Library API",
